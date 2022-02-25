@@ -180,7 +180,7 @@ nav{
 }
 .row{
     width: 100%;
-    height: 1100px;
+    height: 950px;
     padding-top: 40px;
     
 }
@@ -188,7 +188,6 @@ nav{
     float: left;
     width: calc((100% / 3) - 40px);
     height: 100%;
-    display: inline-block;
     border: 1px solid gray;
 }
 .center{
@@ -196,14 +195,12 @@ nav{
     width: calc((100% / 3) - 40px);
     margin: 0 60px;
     height: 100%;
-    display: inline-block;
     border: 1px solid gray;
 }
 .right{
-    float: right;
+    float: left;
     width: calc((100% / 3) - 40px);
     height: 100%;
-    display: inline-block;
     border: 1px solid gray;
 }
 .user {
@@ -215,12 +212,13 @@ nav{
 .container-inside-card{
     padding-left: 25px;
 }
-.left h3{
+.container-inside-card h3{
     font-size: 23px;
-    padding: 25px 0px;
+    padding-top: 25px;
 }
-.left h4{
+.left div h4, .center div h4, .right div h4{
     font-size: 15px;
+    padding-top: 20px;
     
 }
 .tariffa{
@@ -231,7 +229,7 @@ nav{
 .user-regular{
     display: block;
     font-size: 12px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .folder{
     display: block;
@@ -285,4 +283,90 @@ nav{
 }
 .container-inside-card ul li{
     margin-top: 20px;
+}
+.enterprise{
+    margin-top: 70px;
+    height: 200px;
+    border: 1px solid gray;
+}
+.team{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.entleft{
+    float: left;
+    width: 70%;
+}
+.entright{
+    float: left;
+    width: 30%;
+}
+.entleft h3{
+    padding: 16px 25px;
+    font-size: 25px;
+}
+.entleft h4{
+    padding: 0 25px;
+    
+}
+.entleft p{
+    padding: 20px 25px;
+    font-size: 13px;
+}
+
+#Contatta{
+    padding: 6px 46px;
+    background-color: rgb(16, 45, 207);
+    font-size: 12px;
+    color: white;
+    display: inline;
+}
+#Contatta:hover{
+    background-color: #8EA1E1;
+}
+.entright p{
+    margin-top: 25px;
+}
+.partner{
+    width: 100%;
+    height: 100%;
+    margin-top: 130px;
+}
+.imgleft{
+    float: left;
+    width: 60%;
+}
+.textright{
+    float: left;
+    width: 40%;
+}
+.imgleft img{
+    width: 90%;
+}
+.textright h3{
+    font-size: 25px;
+    padding-top: 35px;
+}
+.textright p{
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 24px;
+}
+.textright span{
+    display: inline-block;
+    margin-top: 25px;
+}
+#trova-partner{
+    display: inline;
+    font-size: 14px;
+    background-color: white;
+    padding: 8px 18px;
+    border: 1px solid black;
+    color: black;
+}
+#trova-partner:hover{
+    background-color: black;
+    color: white;
 }
