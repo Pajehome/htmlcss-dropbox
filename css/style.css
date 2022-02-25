@@ -16,6 +16,7 @@ body{
     background-color: #1038bb;
     color: #fff;
     text-decoration: none;
+    min-width: 1200px;
 }
 .clearfix:after{
     content: '';
@@ -62,7 +63,7 @@ nav{
 }
 .navright ul, #Inizia{
     float: right;
-    padding-right: 160px;
+    padding-right: 10px;
 }
 #Inizia .btn{
     padding: 7px 18px;
@@ -70,19 +71,22 @@ nav{
     font-size: 14px;
     color: white;
     display: inline;
+    
 }
 #Inizia .btn:hover{
     background-color: #8EA1E1;
 }
 .navright #Inizia a{
-    position: relative;
-    left: 700px;
+    /* position: relative;
+    left: 700px; */
+    min-width: 1200px;
 }
 /* /header */
 
 /* main */
 /* firstsection */
 .back{
+    padding-top: 50px;
     width: 100%;
     height: 100vh;
     background-color: #8EA1E1;
@@ -107,6 +111,7 @@ nav{
     font-size: 14px;
     color: white;
     display: inline;
+    min-width: 1200px;
 }
 #prova{
     margin-top: 20px;
@@ -114,6 +119,7 @@ nav{
 #prova p{
     font-size:13px;
     margin-top:-15px
+    
 }
 #prova .btn:hover{
     background-color: #8EA1E1;
@@ -129,6 +135,47 @@ nav{
     margin-top: 40px;
 }
 .firstimg img{
-    width: 850px;
-    margin: 30px 30px
+    max-width: 100%;
+    /* margin: 30px 30px */
+    position: relative;
+    top: 30px;
+    left: 30pz;
+}
+/* /firstsection */
+.container-center{
+    width: 80%;
+    margin: 100px auto;
+}
+/* cardsection */
+
+.card h2{
+    font-size:30px ;
+    padding-top: 100px;
+}
+.circle-blue{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-width: 5px ;
+    border-style: solid;
+    border-color:#1038bb;
+}
+.fatt-mensile, .circle-blue, .fatt-annuale, .circle-empty{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 50px;  
+}
+.circle-empty{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-width: 1px ;
+    border-style: solid;
+    border-color:gray;
+    margin-left: 20px;
+}
+.row{
+    width: 100%;
+    height: 1100px;
+    border: 1px solid black;
 }
