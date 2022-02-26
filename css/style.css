@@ -146,7 +146,7 @@ nav{
 }
 /* /firstsection */
 .container-center{
-    width: 80%;
+    width: 70%;
     margin: 100px auto;
 }
 /* cardsection */
@@ -598,11 +598,11 @@ nav{
     height: 280px;
     background-color: #B4D0E7;   
 }
-.under-sponsor h2{
+.under-sponsor .container-center h2{
     float: left;
     width: 60%;
     font-size: 33px;
-    padding: 109px 0px 0px 286px;
+    padding-top: 100px;
     color: #61082B;
 }
 #prova-two{
@@ -621,3 +621,90 @@ nav{
     padding-top: 100px;
 }
 /* /under-sponsor */
+/* questions */
+.questions h3{
+    font-size: 25px;
+    
+}
+.questions .border-gray{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    
+}
+.border-gray .difference{
+    float: left;
+    width: 95%;
+    font-weight: bold;
+    padding: 30px 0;
+    border-top: 1px solid rgb(200, 200, 200);
+    
+}
+.border-gray .angle-down-right{
+    float: right;
+    width: 5%;
+    padding: 30px 0;
+    
+}
+.border-gray .angle-down-right i{
+    color: black;
+}
+.difference-last{
+    float: left;
+    width: 95%;
+    font-weight: bold;
+    padding: 30px 0;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+/* /questions */
+
+/* footer */
+footer{
+    margin-top: 400px;
+    background-color: black;
+    height: 450px;
+}
+footer .container-footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.prod span{
+    display: block;
+    color: white;
+    font-size: 13px;
+    line-height: 2em;
+    
+}
+
+.prod{
+    width: 20%;
+    float: left;
+    padding: 95px 0px;
+
+}
+.prod .colortitle{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.footer-line{
+    width: 80px;
+    height: 80px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-top: 350px;
+}
+.language{
+    margin-top: 20px;
+}
+.language .fa-solid{
+    color: gray;
+}
+.select-language{
+    font-size: 11px;
+    padding: 0px 12px 0px 160px;
+    color: gray;
+}
+.language .fa-caret-up{
+    font-size: 11px;
+}
